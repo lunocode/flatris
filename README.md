@@ -32,7 +32,7 @@ docker build -t flatris .
 Run:
 
 ```
-docker run -ti flatris
+docker run -tip 3000:3000 flatris
 ```
 
 ### Using docker-compose
