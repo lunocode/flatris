@@ -22,4 +22,32 @@ yarn build
 yarn start
 ```
 
+### Using docker
+
+Build:
+
+```
+docker build -t flatris .
+```
+Run:
+
+```
+docker run -ti flatris
+```
+
+### Using docker-compose
+
+Build:
+
+```
+docker build -t flatris .
+```
+Run:
+
+```
+docker-compose up
+```
+
+
+
 Go to http://localhost:3000
