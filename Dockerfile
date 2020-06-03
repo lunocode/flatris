@@ -4,8 +4,7 @@ WORKDIR			/app
 COPY	package.json	/app
 RUN	yarn install
 COPY	.	/app
-RUN	yarn test && \
-	yarn build
+RUN	yarn build
 
 EXPOSE 3000
 CMD yarn start
